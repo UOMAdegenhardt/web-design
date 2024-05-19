@@ -10,4 +10,34 @@
 .About_Us p {
     font-family: Lato;
     color: #C7BDAD;
+    font-style: normal;
+    text-align: center; 
+    font-weight: 300;
+}
+
+.Live_Fish h1 {
+    font-family: Spectral;
+    color: #C7BDAD;
+}
+
+.Live_Fish p {
+    font-family: Lato;
+    color: #C7BDAD;
+    font-style: normal;
+    text-align: center; 
+    font-weight: 300;
+
+}
+
+.Fuzzy_Yard h1 {
+    font-family: Spectral;
+    color: #C7BDAD;
+}
+
+.Fuzzy_Yard p {
+    font-family: Lato;
+    color: #C7BDAD;
+    font-style: normal;
+    text-align: center;
+    font-weight: 300;
 }

@@ -40,4 +40,22 @@ nav ul li a {
     padding: 20px;
 }
 
+.Live_Fish {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    height: 301px;
+    padding: 20px;
+}
+
+.Fuzzy_Yard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    padding: 20px;
+}
+
 
