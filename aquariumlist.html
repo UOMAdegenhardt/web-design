@@ -4,18 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles\layout.css">
+    <link rel="stylesheet" href="styles\typography.css">
+    <link rel="stylesheet" href="styles\colours.css">
 </head>
 <body>
     <header></header>
     <main>
+        <!--Nav-->
+        <nav>
+            <div class="logo">
+                <img src="">
+            </div>
+                <ul class="categories">
+                    <li><a class="btn" href="#">Aqaurium</a></li>
+                    <li><a class="btn" href="#">Cat</a></li>
+                    <li><a class="btn" href="#">Dog</a></li>
+                    <li><a class="btn" href="#">More</a></li>
+                </ul>
+            
+            <ul class="search_cart">
+                <li><a class="btn" href="#">Search</a></li>
+                <li><a class="btn" href="#">Cart</a></li>
+            </ul>     
+        </nav>
+
         <!--- Banner -->
-        <section>
+        <section class="p2_banner">
             <h1> AQUARIUM </h1>
             <p>Aquarium supplies for tropical fish, ponds and goldfish, including tank heaters, aquarium filters, fish food, live plants and medications. We also have a selection of all in one fish tanks that make fish keeping easy!</p>
         </section>
 
         <!--- category list-->
-        <section>
+        <section class="category_list">
             <h1> category </h1>
             <ul>
                 <li> Air Pump </li>
@@ -34,15 +55,21 @@
         </section>
 
         <!--- live fish title-->
-        <section>
+        <section class="Item_title">
         <h2>Live Fish</h2>
         <h3>sort by</h3>
         <h2>all</h2>
         </section>
+
+
+
         <!---live fish product list-->
-        <section class="live-fish">
+        <section class="product_list">
+
             <div class="product-card">
-                <img src="">
+                <div class="product-image">
+                <img src="Assessment3\web design\images\neon-blue-acar.png">
+            </div>
                 <div class="product-info">
                     <h3>Neon Blue Acara</h3>
                     <h5>In store only</h5>
@@ -50,15 +77,17 @@
             </div>
 
             <div class="product-card">
-                <img src="">
-                <div class="product-info">
-                    <h3>Moss Green Tiger Barb</h3>
-                    <h5>In store only</h5>
-                </div>
+                    <div class="product-image">
+                         <img src="">
+                    </div>
+                      <div class="product-info">
+                         <h3>Moss Green Tiger Barb</h3>
+                        <h5>In store only</h5>
+                     </div>
             </div>
 
             <div class="product-card">
-                <img src="">
+                <img src="Assessment3\web design\images\green-moss.png.png">
                 <div class="product-info">
                     <h3>Red Tiger Oscar</h3>
                     <h5>In store only</h5>
@@ -121,6 +150,9 @@
                 </div>
             </div>
         </section>
+
+
+
     </main>
     <footer></footer>
 </body>

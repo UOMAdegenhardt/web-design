@@ -32,27 +32,36 @@
             <div class="About_Us">
                 <H1> ABOUT US </H1>
                 <p> Pets Wonderland is an independent pet and aquarium specialist retailer established in 1972 in Melbourne, selling live fish and supplies for all pets.</p>
-                <button type="button">Learn More</button>
+                <button class="banner_button">Learn More</button>
             </div>
+
             <div class="Live_Fish">
                 <div class="Live_Fish_Text">
                     <H1> LIVE FISH </H1>
                     <p>Specialising in aquatic pets, we have a wide range of fish and aquatic gear available.</p>
-                    <button type="button">Browse</button>
+                    <button class="banner_button">Browse</button>
                  </div>
                  <div class="Live_Fish_Image">
-                    <img src="images\fish_banner_desktop.jpeg">
+                    <picture> 
+                        <source media="(min-width:900px)"
+                        srcset="images\fish_banner_desktop.jpg">
+                        <source media="(min-width:320px)"
+                        srcset="images\fish_banner_mobile.jpg">
+                        <img src="images\fish_banner_desktop.jpg">
+                    </picture>
                  </div>
             </div>
+
             <div class="Fuzzy_Yard">
                 <H1> FUZZY YARD </H1>
                 <p> All the new latest release pet beds from Fuzzy yard</p>
-                <button class="button">Browse</button>
+                <button class="banner_button">Browse</button>
             </div>
+
             <div class="Pet_Boarding">
                 <h1> PET BOARDING</h1>
                 <p> Going on holiday? We offer a boarding service for small animals at out pet hotel located in Prahran.</p>
-                <button class="button">Enquire</button>
+                <button class="banner_button">Enquire</button>
             </div>
         </div>
       

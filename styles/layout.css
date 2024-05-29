@@ -54,12 +54,9 @@ nav ul li a {
     justify-content: space-between;
 }
 .Live_Fish_Text {
-    display: flex;
-    align-items:left;
-    justify-content: center;
-    flex-direction: column;
-    padding-left: 100px;
-   
+    display: grid;
+    align-items: flex-start;
+    
 }
 
 
@@ -77,4 +74,14 @@ nav ul li a {
     justify-content: center; 
     flex-direction: column;
     height: 300px;
+}
+
+.banner_button {
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 150px;
+    height: 35px;
 }
