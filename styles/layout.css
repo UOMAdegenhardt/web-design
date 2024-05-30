@@ -85,3 +85,35 @@ nav ul li a {
     width: 150px;
     height: 35px;
 }
+
+.p2_banner {
+    display: flex; 
+    flex-direction: row;
+    height: 300px;
+    justify-content: space-between;
+}
+
+.product_list {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+.product-card {
+    height: 300px;
+    width:  170px;
+}
+
+.product-image {
+    height: 170px;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 900px) {
+    .product_list {
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+    }
+    
+}

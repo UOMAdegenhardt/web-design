@@ -16,3 +16,15 @@ background: linear-gradient(198.16deg, #33250D 3.33%, #5C7387 26.65%, #052847 67
     background-color: #ADBBC7; 
     color: #33250D;
 }
+
+.p2_banner {
+    background: linear-gradient(196.27deg, #33250D 11.29%, #5C7387 78.81%);
+}
+
+.product-image {
+    background-color: #111213;
+}
+
+.aquarium-list {
+    background: radial-gradient(336.82% 121.63% at 74.31% 9.08%, #052847 0%, #052847 8.77%, #5C7387 49.25%, #C5BCAC 74.72%, #C7BDAD 85.98%, #33250D 92.69%, #ADBBC7 100%);
+}
