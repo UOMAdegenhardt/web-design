@@ -86,17 +86,19 @@ nav ul li a {
     height: 35px;
 }
 
+
 .p2_banner {
     display: flex; 
     flex-direction: row;
     height: 300px;
-    justify-content: space-between;
 }
 
 .product_list {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-content: center;
+    justify-items:center;
+    padding-left: 50px;
 }
 
 .product-card {
@@ -107,6 +109,7 @@ nav ul li a {
 .product-image {
     height: 170px;
     border-radius: 15px;
+    padding-top:30px;
 }
 
 @media screen and (max-width: 900px) {
@@ -116,4 +119,14 @@ nav ul li a {
         justify-content: center;
     }
     
+}
+
+.Live_fish_Header {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+
+.filter_list {
+    float: left' 
 }

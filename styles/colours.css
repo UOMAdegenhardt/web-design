@@ -18,7 +18,7 @@ background: linear-gradient(198.16deg, #33250D 3.33%, #5C7387 26.65%, #052847 67
 }
 
 .p2_banner {
-    background: linear-gradient(196.27deg, #33250D 11.29%, #5C7387 78.81%);
+   background: linear-gradient(90.05deg, rgba(5, 40, 71, 0.45) 3.92%, rgba(0, 0, 0, 0.45) 103.41%, rgba(92, 115, 135, 0.45) 103.42%), linear-gradient(89.8deg, #C7BDAD -60.84%, #60533E 29.41%, #33250D 98.34%);
 }
 
 .product-image {
@@ -27,4 +27,8 @@ background: linear-gradient(198.16deg, #33250D 3.33%, #5C7387 26.65%, #052847 67
 
 .aquarium-list {
     background: radial-gradient(336.82% 121.63% at 74.31% 9.08%, #052847 0%, #052847 8.77%, #5C7387 49.25%, #C5BCAC 74.72%, #C7BDAD 85.98%, #33250D 92.69%, #ADBBC7 100%);
+}
+
+.p2_main {
+    background: linear-gradient(0deg, rgba(173, 187, 199, 0.2), rgba(173, 187, 199, 0.2)), radial-gradient(254.64% 339.87% at 5.88% 10.27%, #5C7387 0.58%, #052847 24.41%, #33250D 39.48%);
 }
