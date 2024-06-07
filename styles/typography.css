@@ -63,3 +63,13 @@
     letter-spacing: 0.13em; 
     
 }
+
+.product_description h1 {
+    font-family: 'Spectral';
+    font-style: normal; 
+    font-weight: 700;
+    font-size: 40px; 
+    line-height: 73px;
+    letter-spacing: 0.23em;
+    color: #33250D; 
+}

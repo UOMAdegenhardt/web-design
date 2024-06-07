@@ -38,20 +38,21 @@ background: linear-gradient(198.16deg, #33250D 3.33%, #5C7387 26.65%, #052847 67
 }
 
 .product_description {
-  
+  background-color: pink;
 }
 
 .product_buttons {
-   
+   background-color: aquamarine;
 }
 
 .product_price {
-    
+    background-color:#60533E;
 }
 
 .product_contents {
+    background-color: red;
 }
 
 .coral_product_image {
-   
+   background-color:#052847;
 }

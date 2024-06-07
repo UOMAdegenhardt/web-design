@@ -132,11 +132,13 @@ nav ul li a {
 
 
 .product_contents {
+    display: flex;
     padding-top: 100px;
     padding-left: 50px;
+    flex-direction: column; 
 }
 
-.coral_ornament_page {
+.product_page {
     display: flex;
 }
 
@@ -146,4 +148,11 @@ nav ul li a {
 
 .product_description {
     width: 600px;
+}
+
+.product_buttons {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    padding-top:30px;
 }
