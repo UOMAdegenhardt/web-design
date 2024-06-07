@@ -127,6 +127,23 @@ nav ul li a {
     justify-content: space-between; 
 }
 
-.filter_list {
-    float: left' 
+
+
+
+
+.product_contents {
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.coral_ornament_page {
+    display: flex;
+}
+
+.coral_product_image {
+    overflow: hidden;
+}
+
+.product_description {
+    width: 600px;
 }

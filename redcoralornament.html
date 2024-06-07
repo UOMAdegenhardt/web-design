@@ -4,8 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles\layout.css">
+    <link rel="stylesheet" href="styles\typography.css">
+    <link rel="stylesheet" href="styles\colours.css">
+    <link rel="stylesheet" href="styles\spacing.css">
 </head>
 <body>
-    <img src="\images\fish_banner_mobile.jpg">
+    <header>
+        <nav>
+           <div class="logo">
+               <img src="">
+           </div>
+               <ul class="categories">
+                   <li><a class="btn" href="#">Aqaurium</a></li>
+                   <li><a class="btn" href="#">Cat</a></li>
+                   <li><a class="btn" href="#">Dog</a></li>
+                   <li><a class="btn" href="#">More</a></li>
+               </ul>
+           
+           <ul class="search_cart">
+               <li><a class="btn" href="#">Search</a></li>
+               <li><a class="btn" href="#">Cart</a></li>
+           </ul>     
+       </nav>
+   </header>
+
+   <main class="coral_ornament_page">
+
+    <div class="product_contents">
+    <div class="product_description">
+        <h1>Red Coral Ornament</h1>
+        <p>Red Coral Ornament will add a fabulous splash of colour to your aquarium.</p>
+        <p2>*Not suitable with betta fish</p2>
+    </div>
+
+    <div class="product_buttons">
+        <div class="add_to_cart_button">
+        <button type="add_to_cart">ADD TO CART</button>
+        </div>
+            <div class="main_quantity_btn">
+                <button class="add-quanitity"
+                data-action="minus" type="button">-</button>
+                <input class="product_quantity" type="number" name="product_quantity" 
+                min="0" max="99" value="1">
+                <button class="minus-quantity" 
+                data-action="add" type="button">+</button>
+                </div>
+        </div>
+
+        <div class="product_price">
+            <h1>$22.50</h1>
+        </div>
+     </div>
+     
+     <div class="coral_product_image">
+        <img src="images\red_coral_desktop.png"
+    </div>
+       
+    
+   </main>
 </body>
 </html>

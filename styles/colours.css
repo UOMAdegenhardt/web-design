@@ -32,3 +32,26 @@ background: linear-gradient(198.16deg, #33250D 3.33%, #5C7387 26.65%, #052847 67
 .p2_main {
     background: linear-gradient(0deg, rgba(173, 187, 199, 0.2), rgba(173, 187, 199, 0.2)), radial-gradient(254.64% 339.87% at 5.88% 10.27%, #5C7387 0.58%, #052847 24.41%, #33250D 39.48%);
 }
+
+.coral_ornament_page {
+    background-image: url('web%design\images\Gradient.svg');
+}
+
+.product_description {
+  
+}
+
+.product_buttons {
+   
+}
+
+.product_price {
+    
+}
+
+.product_contents {
+}
+
+.coral_product_image {
+   
+}

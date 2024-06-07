@@ -8,7 +8,12 @@
 }
 
 .Live_fish_Header {
-    padding-top: 20px;
-    padding-left: 10px;
-    padding-right:10px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right:50px;
+}
+
+.coral_product_image {
+    padding-left: 50px;
+    padding-top: 50px;
 }
