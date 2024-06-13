@@ -1,0 +1,154 @@
+
+        @media screen and (max-width: 899px) {
+            .product_page {
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .pp_container {
+                display: grid; 
+                grid-template-rows: 1fr 4fr 2fr;
+            }
+        
+            .pp_buttons {
+                    position: relative;
+                    width: 150px;
+                    background-color: pink;
+                
+                }
+                
+                .pp_title h1 {
+                    position: relative;
+                    background-color: purple; 
+                }
+                
+                .pp_stone_image {
+                    overflow: hidden;
+                    background-color: aqua;
+                }
+
+                .pp_price {
+                    background-color: grey; 
+    
+                }
+                 .pp_description {
+                    background-color: bisque; 
+                   
+                 }
+
+                 .pp_row2 {
+                    display: flex; 
+                   justify-content: space-between;
+                 }
+
+                 .pp_row3 {
+                    display: flex;
+                    justify-content: space-between; 
+                 }
+        
+            }
+        
+            @media screen and (min-width: 900px) {
+                .product_page {
+                  display: flex; 
+                }
+
+                .pp_container {
+                    display: grid; 
+                    grid-template-columns: 1fr 1fr;
+                }
+
+                .pp_row1 {
+                    background-color: pink;
+
+            
+                }
+
+                .pp_row2 {
+                    background-color: grey;
+                    display: flex;
+                    flex-direction: column-reverse;
+                    overflow: hidden;
+                }
+
+                .pp_row3 {
+                    background-color: burlywood;
+                    position: absolute;
+                    bottom: 30px;
+                    width: 600px;
+                    display: flex; 
+                    flex-direction: column-reverse; 
+                }
+
+                .pp_title {
+                    border-style: solid; 
+                    border-radius: 2px;
+                    border-color: purple; 
+                    width: 600px;
+                }
+
+                .pp_buttons {
+                    border-style: sold; 
+                    border-radius: 2px;
+                    border-color: purple; 
+                    position: absolute;
+                    bottom: 30px;
+                }   
+
+                .pp_stone_image {
+                    border-style: solid;
+                    border-radius: 2px;
+                    border-color: purple; 
+                    padding-right: 300px;
+                    overflow: hidden;
+
+                }
+
+                .pp_price {
+                    border-style: solid;
+                    border-radius: 2px;
+                    border-color: purple; 
+                    padding-top: 20px;
+                }
+
+                .pp_description {
+                    border-style: solid;
+                    border-radius: 2px;
+                    border-color: purple;
+
+                }
+
+                .pp_description p {
+                    font-family: 'Montserrat';
+                    font-style: medium;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 24px;
+                    letter-spacing: 0.13em;
+                    color: #33250D;
+                }
+
+                .add_to_cart_button button {
+                    font-family:'Montserrat';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 29px;
+                    letter-spacing: 0.13em;
+                    color: #052847;
+                }
+
+                .pp_description h1 {
+                    font-family: 'Spectral';
+                    font-style: normal; 
+                    font-weight: 700;
+                    font-size: 40px; 
+                    line-height: 73px;
+                    letter-spacing: 0.23em;
+                    color: #33250D; 
+                }
+            
+    
+
+            }
+            

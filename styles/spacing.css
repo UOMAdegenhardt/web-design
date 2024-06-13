@@ -13,11 +13,13 @@
     padding-right:50px;
 }
 
-.coral_product_image {
-    padding-left: 50px;
-    padding-top: 50px;
-}
+@media screen and (min-width: 900px) {
+    .product_description {
+        padding-bottom: 50px;
+    }
 
-.product_description {
-    padding-bottom: 50px;
+    .coral_product_image {
+        padding-left: 50px;
+        padding-top: 50px;
+    }
 }

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles\colours.css">
     <link rel="stylesheet" href="styles\spacing.css">
 </head>
+</head>
 <body>
     <header>
         <nav>
@@ -58,7 +59,13 @@
      </div>
 
      <div class="coral_product_image">
-        <img src="images\red_coral_desktop.png"
+        <picture> 
+            <source media="(min-width:900px)"
+            srcset="images\red_coral_desktop.png">
+            <source media="(min-width:320px)"
+            srcset="images\redcoral_mobile.png">
+            <img src="images\redcoral_mobile.png">
+        </picture>
     </div>
        
     
