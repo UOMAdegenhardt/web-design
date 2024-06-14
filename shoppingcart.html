@@ -4,8 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles\layout.css">
+    <link rel="stylesheet" href="styles\typography.css">
+    <link rel="stylesheet" href="styles\colours.css">
+    <link rel="stylesheet" href="styles\spacing.css">
 </head>
 <body>
-    
+    <nav>
+        <div class="logo">
+            <img src="">
+        </div>
+            <ul class="categories">
+                <li><a class="btn" href="#">Aqaurium</a></li>
+                <li><a class="btn" href="#">Cat</a></li>
+                <li><a class="btn" href="#">Dog</a></li>
+                <li><a class="btn" href="#">More</a></li>
+            </ul>
+        
+        <ul class="search_cart">
+            <li><a class="btn" href="#">Search</a></li>
+            <li><a class="btn" href="#">Cart</a></li>
+        </ul>     
+    </nav>
+
+    <div class="sc_title">
+        <h1> YOUR CART</h1>
+    </div>
+
+    <div class="shopping_cart">
+        <ol class="sc_contents">
+            <li class="sc_product">
+                <img src="">
+                <p>Red Coral Ornament</p>
+                <h1>$22.50</h1>
+                <button class="delete">x</button>
+            </li>
+            <li class="sc_product">
+                <img src="">
+                <p>Yellow Stone</p>
+                <h1>$22.95</h1>
+                <button class="delete">x</button>
+            </li>
+            <li class="sc_total">
+                <h1>SUBTOTAL</h1>
+                <h1>$45.45</h1>
+            </li>
+        </ol>
+    </div>
+    </div>
+
+    <div class="sc_promos">
+        <p>coupon code</p>
+        <p>gift certificate</p>
+    </div>
+
+    <div class="sc_disclaimer">
+        <p>Shipping calculated at checkout</p>
+    </div>
+
+    <div class="sc_buttons">
+        <button class="sc_goback">GO BACK</button>
+        <button class="sc_checkout">CHECK OUT</button>
+    </div>
 </body>
 </html>
