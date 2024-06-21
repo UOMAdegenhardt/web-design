@@ -13,37 +13,48 @@
             .pp_buttons {
                     position: relative;
                     width: 150px;
-                    background-color: pink;
+                    border-style: solid;
+                    border-color: magenta;
                 
                 }
                 
                 .pp_title h1 {
                     position: relative;
-                    background-color: purple; 
+                    border-style: solid;
+                    border-color: magenta;
                 }
                 
                 .pp_stone_image {
                     overflow: hidden;
-                    background-color: aqua;
+                    border-style: solid;
+                    border-color: magenta;
                 }
 
                 .pp_price {
-                    background-color: grey; 
+                    border-style: solid;
+                    border-color: magenta;
     
                 }
                  .pp_description {
-                    background-color: bisque; 
+                    border-style: solid;
+                    border-color: magenta; 
                    
                  }
 
+                 .pp_row1 {
+                    background-color:aquamarine
+                 }
+
                  .pp_row2 {
-                    display: flex; 
-                   justify-content: space-between;
+                    background-color:beige;
+                    display: grid; 
+                    grid-template-columns: 1fr 1fr;
                  }
 
                  .pp_row3 {
-                    display: flex;
-                    justify-content: space-between; 
+                    background-color:aquamarine;
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
                  }
         
             }
