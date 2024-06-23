@@ -38,34 +38,15 @@ background: linear-gradient(198.16deg, #33250D 3.33%, #5C7387 26.65%, #052847 67
     background-image: url('web%design\images\Gradient.svg');
 }
 
-.product_description {
-  background-color: pink;
+.pp2 {
+    background: linear-gradient(359.43deg, rgba(92, 115, 135, 0.11) 0.38%, rgba(206, 214, 221, 0.11) 96.57%), linear-gradient(180deg, #052847 0%, #5C7387 100%);
 }
 
-.product_buttons {
-   background-color: aquamarine;
-}
-
-.product_price {
-    background-color:#60533E;
-}
-
-.product_contents {
-    background-color: red;
-}
-
-.coral_product_image {
-   background-color:#052847;
-}
-
-.stone_product_image {
-    background-color: #052847;
-}
 
 .pp_buttons button {
     background-color: #ADBBC7; 
-    border-style: none;
 }
+
 
 
 

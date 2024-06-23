@@ -135,11 +135,8 @@ nav ul li a {
 }
 
 
-@media screen and (max-width: 899px) {
+@media screen and (min-width: 320px) and (max-width: 899px) {
 
-    .yellowstone_page {
-        background-color: #052847;
-    }
     .pp_container {
         display: grid; 
         grid-template-rows: 1fr 4fr 1fr;
@@ -147,40 +144,44 @@ nav ul li a {
        
     }
 
-    .pp_buttons {
+    .pp_buttons button {
             position: relative;
-            width: 150px;
-            background-color: ;
-        
+            width: 130px;
+            margin-top:250px;
+            border-style: none;
+            border-radius: 0px 10px 10px 0px;
+            height: 42px;
         }
         
         .pp_title h1 {
             position: relative;
-            background-color: ; 
+            margin-top: 20px;
+            margin-left: 15px;
+            width: 65%;
         }
         
         .pp_stone_image {
             border-style: solid;
-            border-color: magenta;
             margin-top: 50px;
+            margin-bottom: 0px;
         
            
         }
 
         .pp_stone_image img {
             width:100%;
-            height:85%;
+            height:75%;
             object-fit:cover;
             object-position: left;
         }
 
         .pp_price {
-            background-color: ; 
+            margin-top: 10px;
+            margin-left: 15px;
 
         }
          .pp_description {
             border-style: solid;
-            border-color:magenta;
          }
 
          .pp_row2 {
@@ -200,24 +201,16 @@ nav ul li a {
         .pp_container {
             display: grid; 
             grid-template-columns: 1fr 1fr;
-            background-color: #052847;
         }
 
-        .pp_row1 {
-            background-color: ;
-
-    
-        }
 
         .pp_row2 {
-            background-color:;
             display: flex;
             flex-direction: column-reverse;
             overflow: hidden;
         }
 
         .pp_row3 {
-            background-color:;
             position: relative;
             bottom: 350px;
             width: 600px;
@@ -236,14 +229,14 @@ nav ul li a {
         }
 
         .pp_buttons {
-            border-style: solid; 
+            border-style: none;
             border-radius: 2px;
-            border-color: purple; 
             position: relative;
             bottom: 50px;
         }   
 
         .pp_buttons button {
+        border-style: none;
         height: 60px;
         width: 280px;
         border-radius: 30px;
@@ -296,3 +289,31 @@ nav ul li a {
 
 }
 
+.sc_total {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sc_product_card {
+    display: flex;
+    width:150px; 
+    height: 136px;
+    background-color: #111213;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.sc_product_card img {
+    margin-top: 10px;
+    height: 80%; 
+    object-fit: cover;
+
+}
+
+.sc_product p {
+    display: flex;
+    align-items: center;
+    border-style: solid;
+    border-color: mediumaquamarine;
+    margin-right: auto;
+}

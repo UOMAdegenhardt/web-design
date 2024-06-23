@@ -13,5 +13,31 @@
     padding-right:50px;
 }
 
+.sc_product {
+    padding: 50px;
+}
 
+.sc_title {
+    padding-top: 30px;
+    padding-left: 30px;
+}
 
+.sc_product p {
+    padding-left: 20px;
+}
+
+.sc_total {
+    padding: 40px;
+}
+
+.sc_product button {
+    margin-left: 50px;
+}
+
+.sc_product input {
+    margin-left: 50px;
+}
+
+.sc_product h1 {
+    margin-left: 50px;
+}

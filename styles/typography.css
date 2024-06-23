@@ -103,7 +103,7 @@
         font-size: 20px;
         line-height: 37px;
         letter-spacing:0.23em;
-        color: #33250D;
+        color: #C7BDAD;
     }
 
     .pp_description p {
@@ -113,10 +113,23 @@
         font-size: 14px;
         line-height: 17px;
         letter-spacing: 0.13em;
+        color: #33250D;
     }
+
+    .pp_buttons button {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700px;
+        font-size: 12px;
+        line-height:15px;
+        letter-spacing: 0.13em;
+        color: #33250D;
+    }
+
+    .pp_price
 }
 
-@media screen and (min-width: 900px)
+@media screen and (min-width: 800px)
 {
     .pp_title {
         font-family: 'Spectral';
@@ -125,7 +138,7 @@
         font-size:28px;
         line-height: 73px;
         letter-spacing: 0.23em;
-        color: #33250D;
+        color: #C7BDAD;
     }
 
     .pp_description p {
@@ -135,7 +148,7 @@
     font-size: 20px;
     line-height: 24px;
     letter-spacing: 0.13em;
-    color: #33250D;
+    color: #C7BDAD;
     }
 
     .pp_buttons button {
@@ -148,10 +161,52 @@
         color: #052847;
     }
 
+    .pp_price {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 16px;
+        line-height: 49px;
+        letter-spacing: 0.13em;
+        color: #C7bDAD;
+    }
 }
 
-    .sc_contents ol {
-        list-style-type: none
+.sc_title {
+    font-family: 'Spectral';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height:73px;
+    letter-spacing: 0.23em;
+    color: #C7BDAD;
+}
 
-    }
+.sc_product p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    color: #C7BDAD;
+}
 
+.sc_product h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    color: #C7BDAD
+}
+
+.sc_total {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 29px;
+    color: #33250D; 
+}
