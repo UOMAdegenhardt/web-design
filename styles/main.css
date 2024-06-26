@@ -1,0 +1,17 @@
+.product-card {
+    transition: transform 0.5s;
+}
+
+.product-card:hover {
+    transform: scale(1.2);
+}
+
+.p2_add_button {
+    cursor: pointer; 
+    transition: background-color 0.2s;
+}
+
+.p2_add_button:hover {
+    background-color: #052847;
+    color: #adbbc7;
+}

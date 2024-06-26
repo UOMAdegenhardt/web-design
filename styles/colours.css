@@ -1,16 +1,33 @@
 .About_Us {
-    background: linear-gradient(196.27deg, #33250D 11.29%, #5C7387 78.81%);
+    background-image: url("aboutus_bg.jpg");
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-
 .Live_Fish {
-    background: linear-gradient(198.16deg, #ADBBC7 3.33%, #5C7387 26.65%, #052847 93.85%);
+    background-image: url("live_fishbg.jpg");
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .Fuzzy_Yard {
-  
-background: linear-gradient(198.16deg, #33250D 3.33%, #5C7387 26.65%, #052847 67.11%, #33250D 93.85%);
+    background-image: url("fuzzyyard_bg.jpg");
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
+.Pet_Boarding {
+    background-image: url('petboarding_bgimage.jpg');
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .banner_button {
@@ -34,30 +51,52 @@ background: linear-gradient(198.16deg, #33250D 3.33%, #5C7387 26.65%, #052847 67
     background: linear-gradient(0deg, rgba(173, 187, 199, 0.2), rgba(173, 187, 199, 0.2)), radial-gradient(254.64% 339.87% at 5.88% 10.27%, #5C7387 0.58%, #052847 24.41%, #33250D 39.48%);
 }
 
+.p2_add_button {
+    background-color: #ADBBC7;
+}
+
 .coral_ornament_page {
     background-image: url('web%design\images\Gradient.svg');
 }
 
 .pp2 {
-    background: linear-gradient(359.43deg, rgba(92, 115, 135, 0.11) 0.38%, rgba(206, 214, 221, 0.11) 96.57%), linear-gradient(180deg, #052847 0%, #5C7387 100%);
+    background-image: url("pp_gradientbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
+.productlistpage {
+    background-image: url("productlist_gradientbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 .pp_buttons button {
     background-color: #ADBBC7; 
 }
 
-
-
-
-.sc_contents {
-    background-color: pink;
+.shopping_cart_page {
+    background-image: url("gradientbg_sc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.sc_product {
-    background-color: purple; 
+.sc_product button {
+    border: none;
+    background-color: transparent;
+    color: #C7BDAD; 
 }
 
-.shopping_cart {
-    background-color: blue; 
+footer {
+    background-color:#052847;
+}
+
+.checkout {
+    background-image: url("checkout_gradientbg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

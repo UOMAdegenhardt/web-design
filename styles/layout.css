@@ -30,6 +30,8 @@ nav ul li a {
     text-decoration: none;
     font-size: 16px;
 }
+
+/* homepage layout */
  
  .Banners {
     display: flex;
@@ -44,7 +46,6 @@ nav ul li a {
     justify-content: center;
     flex-direction: column;
     height: 301px;
-    padding: 20px;
 }
 
 .Live_Fish {
@@ -60,11 +61,17 @@ nav ul li a {
 
 
 .Fuzzy_Yard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fy_col1 img {
+    max-width: 100%
+}
+
+.fy_col2 {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    height: 300px;
+    flex-direction: column; 
 }
 
 .Pet_Boarding {
@@ -84,6 +91,14 @@ nav ul li a {
 
 }
 
+@media screen and (min-width:320px) and (max-width:800px) {
+    .fy_col1 img {
+        max-height: 100%;
+    }
+    
+}
+
+/* aquarium page layout */
 
 .p2_banner {
     display: grid; 
@@ -110,12 +125,20 @@ nav ul li a {
 .product-card {
     height: 300px;
     width:  170px;
+    align-items: center;
+}
+
+.product-image img {
+    width: 95%;
+    height: auto;
 }
 
 .product-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 170px;
     border-radius: 15px;
-    padding-top:30px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 899px) {
@@ -128,12 +151,13 @@ nav ul li a {
     
 }
 
-.Live_fish_Header {
+.p2_section_header {
     display: flex; 
     flex-direction: row; 
     justify-content: space-between; 
 }
 
+ /* product page layout */
 
 @media screen and (min-width: 320px) and (max-width: 899px) {
 
@@ -160,7 +184,7 @@ nav ul li a {
             width: 65%;
         }
         
-        .pp_stone_image {
+        .pp_coral_image {
             border-style: solid;
             margin-top: 50px;
             margin-bottom: 0px;
@@ -168,12 +192,29 @@ nav ul li a {
            
         }
 
-        .pp_stone_image img {
+        .pp_coral_image img {
             width:100%;
             height:75%;
             object-fit:cover;
             object-position: left;
+            margin-bottom: 0;
         }
+
+        .pp_stone_image {
+            border-style: solid;
+            overflow: hidden;
+            margin-top: 100px;
+            margin-bottom: 20px;
+
+            
+        }
+
+        .pp_stone_image img {
+            width: 150%;
+            object-fit: cover;
+            object-position: left;
+        }
+
 
         .pp_price {
             margin-top: 10px;
@@ -187,11 +228,16 @@ nav ul li a {
          .pp_row2 {
             display: grid; 
             grid-template-columns: 1fr 1.5fr;
+            margin-bottom: 0;
          }
 
          .pp_row3 {
             display: grid;
             grid-template-columns: 1fr 2fr;
+         }
+
+         .product_suggestions h1 {
+            text-align: center
          }
 
     }
@@ -201,6 +247,8 @@ nav ul li a {
         .pp_container {
             display: grid; 
             grid-template-columns: 1fr 1fr;
+            border-style: solid;
+            border-color: magenta;
         }
 
 
@@ -233,6 +281,7 @@ nav ul li a {
             border-radius: 2px;
             position: relative;
             bottom: 50px;
+            margin-right: 100px;
         }   
 
         .pp_buttons button {
@@ -242,7 +291,7 @@ nav ul li a {
         border-radius: 30px;
         }
 
-        .pp_stone_image {
+        .pp_coral_image {
             border-style: solid;
             border-radius: 2px;
             border-color: purple; 
@@ -252,11 +301,23 @@ nav ul li a {
 
         }
 
+        .pp_stone_image {
+            border-style: solid;
+            border-radius: 2px;
+            border-color: purple; 
+            overflow: hidden;
+            margin-top: 80px;
+            margin-left: 100px;
+
+        }
+        
+
         .pp_price {
             border-style: solid;
             border-radius: 2px;
             border-color: purple; 
             padding-top: 20px;
+            margin-right: 0;
         }
 
         .pp_description {
@@ -267,9 +328,14 @@ nav ul li a {
         
         }
 
+        .product_suggestions h1 {
+            text-align: center;
+        }
+
     }
     
 
+/* shopping cart layout */
 
 .shopping_cart {
     display: flex; 
@@ -286,6 +352,9 @@ nav ul li a {
     display: flex; 
     flex-direction: row; 
     justify-content: space-around;
+    width: 90%;
+    margin:auto;
+    border-bottom: 2px solid #c7BDAD;
 
 }
 
@@ -295,6 +364,8 @@ nav ul li a {
 }
 
 .sc_product_card {
+    border-style: solid;
+    border-color: magenta;
     display: flex;
     width:150px; 
     height: 136px;
@@ -302,6 +373,20 @@ nav ul li a {
     border-radius: 15px;
     justify-content: center;
 }
+
+.sc_qty input {
+    background-color: transparent;
+    border-style: none;
+    box-shadow: none;
+}
+
+.sc_qty {
+    background-color: transparent;
+    box-shadow: none;
+    border-style: none;
+}
+
+    
 
 .sc_product_card img {
     margin-top: 10px;
@@ -317,3 +402,133 @@ nav ul li a {
     border-color: mediumaquamarine;
     margin-right: auto;
 }
+
+.sc_product h1 {
+    display: flex;
+    align-items: center;
+}
+
+
+.sc_buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    border-style: solid;
+    border-color: magenta;
+}
+
+
+
+/* checkout page layout */
+
+.checkout_form {
+    display: grid; 
+    grid-template-rows: auto auto auto;
+    margin-left: 100px;
+    margin-top: 40px;
+    margin-right: 100px;
+}
+
+.checkout_form input {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0px; 
+    display: inline-block;
+    border: none;
+    border-radius: 6px;
+    box-sizing: border-box;
+    background-color: #ADBBC7;
+}
+
+
+.customer_details_form {
+    max-width: 65%
+}
+
+.shipping_details {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+
+.sd_col1 {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.sd_col2 {
+     border-style: solid;
+     border-color: aqua; 
+     display: flex;
+     flex-direction: column;
+     padding: 20px 50px;
+}
+
+.sd_col2 h1 {
+    justify-content: center;
+}
+
+.shipping_details_form {
+    max-width: 100%;
+}
+
+.sd_col1 {
+    max-width: 60%;
+}
+
+.sd_col2 button {
+    box-sizing: border-box;
+    border: 1px solid #C7BDAD;
+    padding: 10px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.payment {
+    max-width: 65%;
+    border-style:solid;
+    border-color: magenta;
+}
+
+.payment_options {
+    display: flex; 
+    flex-direction: row;
+}
+
+@media screen and (max-width:900px) {
+    .shipping_details {
+        flex-direction:column;
+        align-items: center;
+    }
+
+    .customer_details_form {
+        max-width: 100%;
+    }
+
+    .sd_col1 {
+        max-width: 100%;
+    }
+
+    .shipping_details_form {
+        max-width: 100%;
+    }
+
+    .payment {
+        max-width: 100%; 
+    }
+
+    .payment_options {
+        flex-direction:column;
+    }
+
+    .checkout_form {
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+
+}
+
+

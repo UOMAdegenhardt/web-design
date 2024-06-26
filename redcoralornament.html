@@ -3,72 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Red Coral Ornament</title>
+   
     <link rel="stylesheet" href="styles\layout.css">
     <link rel="stylesheet" href="styles\typography.css">
     <link rel="stylesheet" href="styles\colours.css">
     <link rel="stylesheet" href="styles\spacing.css">
+    <link rel="stylesheet" href="styles\main.css">
 </head>
-</head>
-<body>
+<body class="pp2">
     <header>
         <nav>
-           <div class="logo">
-               <img src="">
-           </div>
-               <ul class="categories">
-                   <li><a class="btn" href="#">Aqaurium</a></li>
-                   <li><a class="btn" href="#">Cat</a></li>
-                   <li><a class="btn" href="#">Dog</a></li>
-                   <li><a class="btn" href="#">More</a></li>
-               </ul>
-           
-           <ul class="search_cart">
-               <li><a class="btn" href="#">Search</a></li>
-               <li><a class="btn" href="#">Cart</a></li>
-           </ul>     
-       </nav>
-   </header>
+            <div class="logo">
+                <img src="">
+            </div>
+                <ul class="categories">
+                    <li><a class="btn" href="#">Aqaurium</a></li>
+                    <li><a class="btn" href="#">Cat</a></li>
+                    <li><a class="btn" href="#">Dog</a></li>
+                    <li><a class="btn" href="#">More</a></li>
+                </ul>
+            
+            <ul class="search_cart">                                                 
+                <li><a class="btn" href="#">Search</a></li>
+                <li><a class="btn" href="shoppingcart.html">Cart</a></li>
+            </ul>                                                                                                               
+        </nav>                                                                                                                      
+   </header>                     
 
-   <main class="product_page">
+    
+   <main class="yellowstone_page">
+<div class="pp_container">
 
-    <div class="product_contents">
-    <div class="product_description">
+     <!---title section of product page-->
+    <div class="pp_row1">
+        <div class="pp_title">
         <h1>RED CORAL ORNAMENT</h1>
-        <p>Red Coral Ornament will add a fabulous splash of colour to your aquarium.</p>
-        <p2>*Not suitable with betta fish</p2>
+        </div>
     </div>
 
-    <div class="product_buttons">
-        <div class="add_to_cart_button">
+     <!--product image and add to cart button section-->
+    <div class="pp_row2">
+        <div class="pp_buttons">
         <button type="add_to_cart">ADD TO CART</button>
         </div>
-            <div class="main_quantity_btn">
-                <button class="add-quanitity"
-                data-action="minus" type="button">-</button>
-                <input class="product_quantity" type="number" name="product_quantity" 
-                min="0" max="99" value="1">
-                <button class="minus-quantity" 
-                data-action="add" type="button">+</button>
-            </div>
-                <div class="product_price">
-                    <h1>$22.50</h1>
-                </div>
-               
-        </div>
-     </div>
-
-     <div class="coral_product_image">
+        <div class="pp_coral_image">
         <picture> 
             <source media="(min-width:900px)"
             srcset="images\red_coral_desktop.png">
             <source media="(min-width:320px)"
-            srcset="images\redcoral_mobile.png">
-            <img src="images\redcoral_mobile.png">
+            srcset="images\red-coral.png.png">
+            <img src="images\red_coral_desktop.png">
         </picture>
+        </div>
     </div>
-       
-    
-   </main>
+
+     <!---price and description section-->
+    <div class="pp_row3">
+    <div class="pp_price">
+        <h1>$22.55</h1>
+    </div>
+
+    <div class="pp_description">
+        <p>Create a cave with this brightly coloured resin stone ornament. 
+            Fish will love to swim through this ornament or have an area to feel safe in.
+        </p>
+    </div>
+    </div>
+</div>
+
+ <!---suggested similar products section-->
+
+<div class="product_suggestions">
+    <h1> YOU MAY ALSO LIKE</h1>
+
+    <div class="product_list">
+
+        <div class="product-card">
+            <div class="product-image">
+            <img src="images\blueacar_mobile.png">
+        </div>
+            <div class="product-info">
+                <h3>Neon Blue Acara</h3>
+                <h5>In store only</h5>
+            </div>
+        </div>
+
+        <div class="product-card">
+                <div class="product-image">
+                     <img src="images\greenmoss_mobile.png">
+                </div>
+                  <div class="product-info">
+                     <h3>Moss Green Tiger Barb</h3>
+                    <h5>In store only</h5>
+                 </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+            <img src="images\redoscar_mobile.png">
+            </div>
+            <div class="product-info">
+                <h3>Red Tiger Oscar</h3>
+                <h5>In store only</h5>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="product-image">
+            <img src="images\blue_cichlid_mobile.png">
+            </div>
+            <div class="product-info">
+                <h3>Cobalt Blue Zebra Cichlid</h3>
+                <h5>In store only</h5>
+            </div>
+        </div>
+</main>
+
+<footer>
+
+</footer>
 </body>
 </html>

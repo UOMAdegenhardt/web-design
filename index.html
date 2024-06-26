@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="styles\layout.css">
     <link rel="stylesheet" href="styles\typography.css">
     <link rel="stylesheet" href="styles\colours.css">
+    <link rel="stylesheet" href="styles\spacing.css">
 </head>
 <body>
     
@@ -15,7 +16,7 @@
                 <img src="">
             </div>
                 <ul class="categories">
-                    <li><a class="btn" href="#">Aqaurium</a></li>
+                    <li><a class="btn" href="aquariumlist.html">Aqaurium</a></li>
                     <li><a class="btn" href="#">Cat</a></li>
                     <li><a class="btn" href="#">Dog</a></li>
                     <li><a class="btn" href="#">More</a></li>
@@ -23,7 +24,7 @@
             
             <ul class="search_cart">
                 <li><a class="btn" href="#">Search</a></li>
-                <li><a class="btn" href="#">Cart</a></li>
+                <li><a class="btn" href="shoppingcart.html">Cart</a></li>
             </ul>     
         </nav>
    
@@ -39,11 +40,12 @@
                 <div class="Live_Fish_Text">
                     <H1> LIVE FISH </H1>
                     <p>Specialising in aquatic pets, we have a wide range of fish and aquatic gear available.</p>
-                    <a href="aquariumlist.html" class="banner_button">Browse</a>
+                    <a href="aquariumlist.html"><button class="banner_button">Browse</button>
+                    </a>
                  </div>
                  <div class="Live_Fish_Image">
                     <picture> 
-                        <source media="(min-width:900px)"
+                        <source media="(min-width:800px)"
                         srcset="images\fish_banner_desktop.jpg">
                         <source media="(min-width:320px)"
                         srcset="images\fish_banner_mobile.jpg">
@@ -53,14 +55,24 @@
             </div>
 
             <div class="Fuzzy_Yard">
+
+                <div class="fy_col1">
+                <img src="images\fuzzyyard_banner_image.png">
+                </div>
+
+                <div class="fy_col2">
                 <H1> FUZZY YARD </H1>
                 <p> All the new latest release pet beds from Fuzzy yard</p>
                 <button class="banner_button">Browse</button>
+                </div>  
+
             </div>
 
             <div class="Pet_Boarding">
                 <h1> PET BOARDING</h1>
+                <div class="text_with_bg">
                 <p> Going on holiday? We offer a boarding service for small animals at out pet hotel located in Prahran.</p>
+                </div>
                 <button class="banner_button">Enquire</button>
             </div>
         </div>
