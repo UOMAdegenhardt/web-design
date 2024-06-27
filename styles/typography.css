@@ -248,12 +248,13 @@
 
     .pp_description p {
         font-family: 'Montserrat';
-        font-style: normal;
-        font-weight: 400px;
-        font-size: 14px;
-        line-height: 17px;
+        font-style: medium;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
         letter-spacing: 0.13em;
-        color: #33250D;
+        color: #C7BDAD;
+        padding-bottom: 20px;
     }
 
     .pp_buttons button {
