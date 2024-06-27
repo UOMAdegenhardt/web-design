@@ -10,24 +10,30 @@
     <link rel="stylesheet" href="styles\colours.css">
     <link rel="stylesheet" href="styles\spacing.css">
     <link rel="stylesheet" href="styles\main.css">
+    <script src="scripts\animations.js"></script>
 </head>
 <body class="pp2">
     <header>
         <nav>
+            <div class="mobile_menu">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
             <div class="logo">
-                <img src="">
+                <img src="images/pw_logo.png">
             </div>
                 <ul class="categories">
-                    <li><a class="btn" href="#">Aqaurium</a></li>
+                    <li><a class="btn" href="aquariumlist.html">Aqaurium</a></li>
                     <li><a class="btn" href="#">Cat</a></li>
                     <li><a class="btn" href="#">Dog</a></li>
                     <li><a class="btn" href="#">More</a></li>
                 </ul>
             
-            <ul class="search_cart">                                                 
+            <ul class="search_cart">
                 <li><a class="btn" href="#">Search</a></li>
                 <li><a class="btn" href="shoppingcart.html">Cart</a></li>
-            </ul>                                                                                                               
+            </ul>                                                                                                                 
         </nav>                                                                                                                      
    </header>                     
 
@@ -45,7 +51,7 @@
      <!--product image and add to cart button section-->
     <div class="pp_row2">
         <div class="pp_buttons">
-        <button type="add_to_cart">ADD TO CART</button>
+        <button class="add_to_cart" onclick="addedtocart()">ADD TO CART</button>
         </div>
         <div class="pp_coral_image">
         <picture> 

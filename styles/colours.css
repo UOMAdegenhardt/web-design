@@ -61,6 +61,7 @@
 
 .pp2 {
     background-image: url("pp_gradientbg.jpg");
+    max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -68,6 +69,7 @@
 
 .productlistpage {
     background-image: url("productlist_gradientbg.jpg");
+    max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -79,6 +81,7 @@
 
 .shopping_cart_page {
     background-image: url("gradientbg_sc.jpg");
+    max-width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -99,4 +102,13 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+
+.confirmation_page {
+    background-image: url("confirmation_bg.jpg");
+    max-width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
 }

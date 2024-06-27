@@ -2,6 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.categories li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.09em;
+    color:#C7BDAD
+}
+
+@media screen and (min-width:320px) and (max-width: 800px) {
+    .categories li {
+        font-size: 10px;
+        line-height: 0; 
+    }
+}
 
 .About_Us h1 {
     font-family: 'Spectral';
@@ -157,16 +175,35 @@
     letter-spacing: 0.23em;
 }
 
-.Live_fish_Header {
+.p2_banner p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #C7BDAD;
+}   
+
+.p2_section_header {
     font-family: 'Montserrat'; 
     font-style: normal; 
     font-weight: 700; 
     font-size: 16px;
     line-height: 20px;
     letter-spacing: 0.13em; 
-    
+    color:#C7BDAD;
 }
 
+.page_navigation {
+    font-family: 'Montserrat'; 
+    font-style: normal; 
+    font-weight: 700; 
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.13em; 
+    color:#C7BDAD;
+
+}
 .product-info h5 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -236,6 +273,7 @@
         font-size: 12px;
         line-height: 16px;
         letter-spacing: 0.13em;
+        color:#C7BDAD
     }
 
 
@@ -317,16 +355,38 @@
 .sc_total {
     font-family: 'Montserrat';
     font-style: normal;
+    font-size: 16px;
     font-weight: 700;
     font-size: 16px;
     line-height: 29px;
-    color: #33250D; 
+    color: #c7bdad; 
 }
 
+.sc_buttons {
+    font-family: 'Montserrat';
+    font-style: normal; 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.13em;
+}
+
+.sc_goback {
+    color:#C7BDAD
+}
+
+.sc_checkout {
+    color: #33250D;
+}
+
+.sc_disclaimer {
+    color: #c7bdad;
+}
 @media screen and (max-width: 900px) {
     .sc_title {
         font-size: 16px;
     }
+
 }
 
 .checkout_form h1 {
@@ -339,6 +399,26 @@
     color: #C7bDAD;
 }
 
+.account_signin p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color:#C7BDAD;
+}
+
+.account_signin a {
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color:#C7BDAD;
+}
+
+
+
 .shipping_details p {
     font-family: 'lato';
     font-style: normal;
@@ -347,4 +427,79 @@
     line-height: 19px;
     letter-spacing: 0.23em;
     color: #C7BDAD;
+}
+ .shipping_details p1 {
+    font-family: 'lato';
+    font-style: normal;
+    font-weight: 700px;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.23em;
+    color: #C7BDAD;
+}
+
+.sd_col2 p {
+    color: #c7bdad;
+}
+
+.checkout_form label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    color: #c7bdad;
+}
+
+.continue {
+    font-family: 'Montserrat';
+    font-style: normal; 
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.13em;
+    color: #c7bdad;
+}
+
+@media screen and (max-width: 800px) {
+    .checkout_form h1 {
+        font-size: 18px;
+    }
+}
+
+.confirmation_page h1 {
+    font-family: 'Spectral';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 37px;
+text-align: center;
+letter-spacing: 0.23em;
+color: #C7BDAD;
+
+}
+
+.confirmation_page p {
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+text-align: center;
+letter-spacing: 0.3em;
+color: #c7bdad
+}
+
+.confirmation_page button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.13em;
+    color: #C7BDAD;
+    background-color: transparent;
+    width:280px;
+    height:40px;
+    border-color: #c7c7c7
 }

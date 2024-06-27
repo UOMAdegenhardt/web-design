@@ -8,14 +8,20 @@
     <link rel="stylesheet" href="styles\typography.css">
     <link rel="stylesheet" href="styles\colours.css">
     <link rel="stylesheet" href="styles\spacing.css">
+    
 </head>
 <body class="shopping_cart_page">
     <nav>
+        <div class="mobile_menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
         <div class="logo">
-            <img src="">
+            <img src="images/pw_logo.png">
         </div>
             <ul class="categories">
-                <li><a class="btn" href="#">Aqaurium</a></li>
+                <li><a class="btn" href="aquariumlist.html">Aqaurium</a></li>
                 <li><a class="btn" href="#">Cat</a></li>
                 <li><a class="btn" href="#">Dog</a></li>
                 <li><a class="btn" href="#">More</a></li>
@@ -23,7 +29,7 @@
         
         <ul class="search_cart">
             <li><a class="btn" href="#">Search</a></li>
-            <li><a class="btn" href="#">Cart</a></li>
+            <li><a class="btn" href="shoppingcart.html">Cart</a></li>
         </ul>     
     </nav>
 
@@ -37,7 +43,7 @@
                 <div class="sc_product_card">
                 <img src="images\redcoral_mobile.png">
                 </div>
-                <p>Red Coral Ornament</p>
+                <p>Red Coral</p>
                 <input class="sc_qty" type="number" name="sc_qty" min="1" max="99" value="1">
                 <h1>$22.50</h1>
                 <button class="delete">x</button>
@@ -59,10 +65,6 @@
     </div>
     </div>
 
-    <div class="sc_promos">
-        <p>coupon code</p>
-        <p>gift certificate</p>
-    </div>
 
     <div class="sc_disclaimer">
         <p>Shipping calculated at checkout</p>
@@ -74,5 +76,6 @@
             <button class="sc_checkout">CHECK OUT</button>
         </a>
     </div>
+
 </body>
 </html>
