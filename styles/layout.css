@@ -422,7 +422,6 @@ nav ul li a {
 .sc_product p {
     display: flex;
     align-items: center;
-    border-style: solid;
     margin-right: auto;
 }
 
